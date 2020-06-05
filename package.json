@@ -1,0 +1,22 @@
+{
+  "name": "projekt-webowe",
+  "version": "1.0.0",
+  "description": "Projekt zaliczeniowy",
+  "main": ".",
+  "scripts": {
+    "test": "."
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "."
+  ],
+  "author": "Karolina Grochal",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "boxicons": "^2.0.5"
+  }
+}

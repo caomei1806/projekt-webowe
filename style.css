@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+#main-page {
+  width: 100%;
+  height: 100vh;
+  background: url("/img/05.jpg");
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+}
+
+#main-page nav {
+  font-family: "Chivo";
+}
+
+#main-page nav .login {
+  border: 1px solid rgba(161, 161, 161, 0.397);
+}
+
+#main-page .background-filter {
+  width: 100%;
+  height: 100vh;
+  -webkit-backdrop-filter: brightness(60%) saturate(120%);
+          backdrop-filter: brightness(60%) saturate(120%);
+}
+
+#main-page .deer {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 5%;
+  left: 20%;
+  background: url("/img/deer.svg");
+  background-repeat: no-repeat;
+  -webkit-filter: brightness(60%) saturate(140%) hue-rotate(-30deg);
+          filter: brightness(60%) saturate(140%) hue-rotate(-30deg);
+}
+
+@media screen and (max-width: 768px) {
+  #main-page .deer {
+    width: 200px;
+    bottom: 0;
+  }
+}
+
+#main-page .main-info {
+  width: 100%;
+  height: 80%;
+  font-family: "Varela Round";
+}
+
+#main-page .main-info h1 {
+  font-size: 10rem;
+  margin-top: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+  #main-page .main-info h1 {
+    font-size: 6rem;
+    margin-top: 2rem;
+  }
+}
+
+#main-page .main-info p {
+  margin-top: -1.5rem;
+  color: #b1b1b1;
+}
+
+#offer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0c111e;
+}
+
+#offer h1 {
+  font-family: "Titillium Web";
+}
+
+#offer hr {
+  border: 1px solid rgba(121, 48, 79, 0.479);
+}
+
+#offer p {
+  width: 60%;
+  text-align: justify;
+  color: #888888;
+  font-family: "Varela Round";
+}
+
+@media screen and (max-width: 768px) {
+  #offer p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #offer .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#offer .cards .card {
+  background-color: #14172c;
+  font-family: "Chivo";
+  width: 30%;
+  height: 492px;
+  border-bottom: 10px solid #c96b00;
+  -webkit-transform: scale(0.96);
+          transform: scale(0.96);
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+#offer .cards .card:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  border-color: transparent transparent red transparent;
+}
+
+#offer .cards .card .slide-number {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+#offer .cards .card .image {
+  width: 100%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -webkit-filter: saturate(180%) brightness(65%);
+          filter: saturate(180%) brightness(65%);
+}
+
+#offer .cards .card #i1 {
+  background-image: url("/img/ludzie2.svg");
+}
+
+#offer .cards .card #i3 {
+  background-image: url("/img/kampfire1.svg");
+  background-size: 140%;
+}
+
+#offer .cards .card #i2 {
+  background-image: url("/img//czilout3.svg");
+}
+
+#offer .cards .card article {
+  color: #adadad;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  #offer .cards .card {
+    margin-right: 0 !important;
+    margin-bottom: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
