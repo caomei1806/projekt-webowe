@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
+#main-page {
+	width: 100%;
+	height: 100vh;
+	background: url("/img/05.jpg");
+	background-size: cover;
+	background-position: bottom;
+	position: relative;
+	nav {
+		font-family: "Chivo";
+		.login {
+			border: 1px solid rgba(161, 161, 161, 0.397);
+		}
+	}
+	.background-filter {
+		width: 100%;
+		height: 100vh;
+		backdrop-filter: brightness(60%) saturate(120%);
+	}
+	.deer {
+		width: 300px;
+		height: 300px;
+		position: absolute;
+		bottom: 5%;
+		left: 20%;
+		background: url("/img/deer.svg");
+		background-repeat: no-repeat;
+		filter: brightness(60%) saturate(140%) hue-rotate(-30deg);
+		@media screen and (max-width: 768px) {
+			width: 200px;
+			bottom: 0;
+		}
+	}
+	.main-info {
+		width: 100%;
+		height: 80%;
+		font-family: "Varela Round";
+		h1 {
+			font-size: 10rem;
+			margin-top: 6rem;
+			@media screen and (max-width: 768px) {
+				font-size: 6rem;
+				margin-top: 2rem;
+			}
+		}
+		p {
+			margin-top: -1.5rem;
+			color: rgb(177, 177, 177);
+		}
+	}
+}
+#offer {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #0c111e;
+	h1 {
+		font-family: "Titillium Web";
+	}
+	hr {
+		border: 1px solid rgba(121, 48, 79, 0.479);
+	}
+	p {
+		width: 60%;
+		text-align: justify;
+		color: rgb(136, 136, 136);
+		font-family: "Varela Round";
+		@media screen and (max-width: 768px) {
+			width: 100%;
+		}
+	}
+	.cards {
+		@media screen and (max-width: 768px) {
+			flex-direction: column;
+		}
+		.card {
+			background-color: #14172c;
+			font-family: "Chivo";
+			width: 30%;
+			height: 492px;
+			border-bottom: 10px solid rgb(201, 107, 0);
+			transform: scale(0.96);
+			cursor: pointer;
+			transition: 0.3s all;
+			&:hover {
+				transform: scale(1);
+				box-shadow: 0 0 30px rgba(#000, 0.1);
+				border-color: transparent transparent red transparent;
+			}
+			.slide-number {
+				align-self: start;
+			}
+			.image {
+				width: 100%;
+				height: 200px;
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center;
+				filter: saturate(180%) brightness(65%);
+			}
+			#i1 {
+				background-image: url("/img/ludzie2.svg");
+			}
+			#i3 {
+				background-image: url("/img/kampfire1.svg");
+				background-size: 140%;
+			}
+			#i2 {
+				background-image: url("/img//czilout3.svg");
+			}
+
+			article {
+				color: rgb(173, 173, 173);
+				margin-bottom: 1rem;
+				text-align: center;
+			}
+			@media screen and (max-width: 768px) {
+				margin-right: 0 !important;
+				margin-bottom: 1rem;
+			}
+		}
+	}
+}
