@@ -24,6 +24,53 @@
 </head>
 
 <body>
+	<div
+		class="login-form-box"
+		id="login-box"
+	>
+		<button
+			id="close-btn"
+			class="btn"
+		>
+			<i class="bx bx-x"></i>
+		</button>
+		<div class="login-form">
+			<div class="w-75">
+				<div>
+					<label for="login">Login</label>
+					<input
+						type="text"
+						class="login-form-control"
+						id="login"
+					>
+					<small>
+						Correct login - <strong>admin</strong>
+					</small>
+				</div>
+				<div class="mt-5">
+					<label for="password">Password</label>
+					<input
+						type="password"
+						class="login-form-control"
+						id="password"
+					>
+					<small>
+						Correct password - <strong>admin</strong>
+					</small>
+				</div>
+
+				<p
+					class="mb-0"
+					id="alert-box"
+				></p>
+
+				<button
+					class="btn btn-outline-primary mt-4 btn-lg"
+					id="validate-btn"
+				>Login</button>
+			</div>
+		</div>
+	</div>
 	<div id="main-page">
 		<div class="deer"></div>
 		<div class="background-filter position-absolute">
@@ -68,7 +115,10 @@
 										href="#"
 									>Contact</a>
 								</li>
-								<li class="nav-item nav px-3 login">
+								<li
+									class="nav-item nav px-3 login"
+									id="login-btn"
+								>
 									<a
 										class="nav-link"
 										href="#"
@@ -225,6 +275,8 @@
 			Karolina Grochal
 		</p>
 	</footer>
+
+	<script src="script.js"></script>
 </body>
 
 </html>
