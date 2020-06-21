@@ -106,7 +106,7 @@ body::-webkit-scrollbar-thumb {
 #main-page {
   width: 100%;
   height: 100vh;
-  background: url("/img/05.jpg");
+  background: url("img/05.jpg");
   background-size: cover;
   background-position: bottom;
   position: relative;
@@ -143,7 +143,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   bottom: 5%;
   left: 20%;
-  background: url("/img/deer.svg");
+  background: url("img/deer.svg");
   background-repeat: no-repeat;
   -webkit-filter: brightness(60%) saturate(140%) hue-rotate(-30deg);
           filter: brightness(60%) saturate(140%) hue-rotate(-30deg);
@@ -192,7 +192,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   right: 1%;
   bottom: 5%;
-  background: url("/img/deer.svg");
+  background: url("img/deer.svg");
   background-repeat: no-repeat;
   -webkit-filter: hue-rotate(-85deg) brightness(40%);
           filter: hue-rotate(-85deg) brightness(40%);
@@ -212,7 +212,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   left: -3%;
   bottom: -8%;
-  background: url("/img/bear.svg");
+  background: url("img/bear.svg");
   background-repeat: no-repeat;
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
@@ -300,16 +300,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 #offer .cards .card #i1 {
-  background-image: url("/img/ludzie2.svg");
+  background-image: url("img/ludzie2.svg");
 }
 
 #offer .cards .card #i3 {
-  background-image: url("/img/kampfire1.svg");
+  background-image: url("img/kampfire1.svg");
   background-size: 140%;
 }
 
 #offer .cards .card #i2 {
-  background-image: url("/img//czilout3.svg");
+  background-image: url("img//czilout3.svg");
 }
 
 #offer .cards .card article {
@@ -357,7 +357,7 @@ body::-webkit-scrollbar-thumb {
   width: calc(30% - 2rem);
   height: 80%;
   border-radius: 0.25rem 0 0 0.25rem;
-  background: url("/img/eezy_64.svg");
+  background: url("img/eezy_64.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -397,7 +397,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 0.25rem;
     -webkit-filter: brightness(20%);
             filter: brightness(20%);
-    background: url("/img/eezy_64.svg");
+    background: url("img/eezy_64.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -447,7 +447,7 @@ body::-webkit-scrollbar-thumb {
   width: 45%;
   height: 100%;
   position: relative;
-  background: url("/img/Night Camping.svg");
+  background: url("img/Night Camping.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
@@ -468,7 +468,7 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   bottom: -30%;
   right: 0%;
-  background: url("/img/fox.svg");
+  background: url("img/fox.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
